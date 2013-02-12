@@ -5203,6 +5203,11 @@ body {
   letter-spacing: 1px;
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5), 1px -1px 0 rgba(0, 0, 0, 0.5), -1px 1px 0 rgba(0, 0, 0, 0.5), 1px 1px 0 rgba(0, 0, 0, 0.5);
 }
+form .helptext {
+  color: #3A87AD;
+  /* Use bootstrap's text-info color */
+
+}
 /* Add additional stylesheets below
 -------------------------------------------------- */
 #app-header {
@@ -6171,6 +6176,14 @@ ul .btn-question {
 }
 .label.level2[href] {
   background-color: #1a1a1a;
+}
+.label.level1,
+.label.level2,
+.label.level3,
+.label.level4,
+.label.level5,
+.label.level6 {
+  margin: 2px;
 }
 .video_400_300 {
   width: 400px;
